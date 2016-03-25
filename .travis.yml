@@ -1,0 +1,10 @@
+# Travis CI
+language: ruby
+rvm:
+  - 2.1
+  - 2.0
+  - 1.9.3
+before_script:
+  - chmod a+x script/bootstrap
+  - chmod a+x script/cibuild
+script: "./script/cibuild"
