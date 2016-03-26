@@ -23,7 +23,7 @@ describe "Last Modified At Tag" do
 
     it "does not run arbitrary commands" do
       begin
-        setup("1984-03-06-command.md|whoami>.gitkeep", "last_modified_at_with_format.html")
+        setup("1984-03-06-command.md.gitkeep", "last_modified_at_with_format.html")
       rescue NoMethodError => e
         # no op; but in reality, the .bogus file does get created when using backticks, not IO.popen
       end
