@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version               = Bunto::LastModifiedAt::VERSION
   s.summary               = "A liquid tag for Bunto to indicate the last time a file was modified."
   s.authors               = ["Garen J. Torikian", "Suriyaa Kudo"]
-  s.homepage              = "https://github.com/gjtorikian/bunto-last-modified-at"
+  s.homepage              = "https://github.com/bunto/bunto-last-modified-at"
   s.license               = "MIT"
   s.files                 = Dir["lib/**/*.rb"]
 
