@@ -6,6 +6,9 @@ rvm:
   - 2.3.0
   - 2.2.5
 
+sudo: false
+cache: bundler
+
 before_script:
   - chmod a+x script/bootstrap
   - chmod a+x script/cibuild
