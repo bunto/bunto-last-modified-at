@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe(Bunto::LastModifiedAt::Determinator) do
   let(:site_source) { @fixtures_path }
-  let(:page_path)   { @fixtures_path.join("_posts").join("1984-03-06-command.md.bogus") }
+  let(:page_path)   { @fixtures_path.join("_posts").join("1984-03-06-command.md|whoami>.bogus") }
   let(:mod_time)    { Time.new(2014, 01, 15, 13, 00, 44, "-08:00") }
   subject { described_class.new(site_source.to_s, page_path.to_s) }
 

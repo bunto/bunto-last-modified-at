@@ -4,10 +4,10 @@ module Bunto
     autoload :VERSION, 'bunto-last-modified-at/version'
     autoload :Executor, 'bunto-last-modified-at/executor'
     autoload :Determinator, 'bunto-last-modified-at/determinator'
-    autoload :Generator, 'bunto-last-modified-at/generator'
     autoload :Tag, 'bunto-last-modified-at/tag'
+    autoload :Hook, 'bunto-last-modified-at/hook'
 
-    Generator ; Tag
+    Tag ; Hook
 
     PATH_CACHE = {}
   end
